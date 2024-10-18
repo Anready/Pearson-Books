@@ -30,7 +30,7 @@ for i in range(1, end + 1):
         image_path = f'images/image_{num}.jpg'
         with open(image_path, 'wb') as f:
             f.write(response.content)
-        print(f'Скачано: {url}')
+        print(f'Downloaded: {url}')
         image_files.append(image_path)
     else:
         print(f'Failed to download: {url}')
