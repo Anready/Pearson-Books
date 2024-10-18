@@ -25,6 +25,8 @@ This repo gives you many pearson books (PDF version) for free, now in script we 
 Installl reauirements:
 ``` pip install requests Pillow ```
 
+Change ```end ``` page variable to number in commentary. If you have your own url try to find itself last page
+
 Run script:
 ```python main.py```
 
